@@ -3,6 +3,16 @@
 
 Scene module follow VIPER layout architecture
 
+View <-> Presenter <-> Interacter <-> Worker (service)
+           ^
+           |
+           v
+           router
+           
+ There is Router to handle routing between scene. Can build tree router
+ There is scene class act as scene factory to hide the complex of generate scene follow the VIPER
+ 
+
 Mutliple theme: There are popular ways to handle 
 - Each base control handle itself by listening the notification change theme to update 
 - ViewController, View listen to notificaiton change theme to reload children view
