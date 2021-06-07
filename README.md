@@ -12,6 +12,7 @@ View <-> Presenter <-> Interacter <-> Worker (service)
  There is Router to handle routing between scene. Can build tree router
  There is scene class act as scene factory to hide the complex of generate scene follow the VIPER
  
+The FavoriteCryptoView: i try to use rxswift-MVVM so it look different.
 
 Mutliple theme: There are popular ways to handle 
 - Each base control handle itself by listening the notification change theme to update 
