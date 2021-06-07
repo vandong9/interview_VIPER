@@ -20,3 +20,6 @@ Mutliple theme: There are popular ways to handle
  
  About the layout: Sorry for my BAD layout, i not good at design, to make it look good will
  take much time but i need finish soon to back to tasks from team.
+
+ About unit test: Because limit time, i just focus on write unit test for VIPER module. With me unit test permit
+ double code, it should be separate for easier to handle.
